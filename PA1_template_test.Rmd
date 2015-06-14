@@ -1,0 +1,8 @@
+
+
+
+```{r}
+unzip(zipfile = ".\\activity.zip")
+activity = read.csv(file = ".\\activity.csv", header = TRUE)
+```
+
